@@ -1,0 +1,28 @@
+---
+title: "Discussion and Conclusion"
+output: html_document
+date: "2023-01-15"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 5 Discussion
+
+## 5.1 Happiness Countries from 2015 to 2020
+The happiest country’s ranking position does not change from year to year, the countries did not change from 2015 to 2020. They are still on the top and bottom happiest country list. The countries for top 6 happiness are Denmark, Finland, Switzerland, Norway, Canada and Netherlands. Meanwhile, the countries for bottom 6 happiness are Afghanistan, Syria, Central African Republic, Zimbabwe, Liberia and Togo.
+
+## 5.2 The Main Factor Affects Happiness
+The factors that most affects happiness is Economic GDP per capita, social support, healthy life expectancy at birth, freedom to make life choices which have a strong correlation with life ladder. This is because income can let people meet their basic needs, so it is quite important and will affect people’s happiness.  Another main factor is healthy life expectancy at birth can be attributed to rising living standards, improved lifestyle, and better education which along to quality health services. Lastly, freedom to make life choices is also one of the key contributing factors.  This is because of the social dimensions of happiness within working and living environments, which affect the quality-of-life people enjoy. 
+
+## 5.3 Happiness Score Prediction (Regression Model)
+Three regression models are used to predict Happiness Score which are Random Forest, Support vector and Decision Tree. Random Forest is the best regression model compared to K-Nearest Neighbor and Naive Bayes Classification model in our project result. This is because the prediction accuracy of Random Forest Regression model is highest which achieved 99.83%.
+
+## 5.4 Happiness Level Prediction (Classification Model)
+Three classification models are used to predict Happiness Rank which are K-Nearest Neighbor, AdaBoost and Naïve Bayes. Ada Boost is the best classification model compared to K-Nearest Neighbor and Naive Bayes Classification model in our project result. This is because the prediction accuracy of AdaBoost Classification model is highest which achieved 96.6%.
+
+## 6 Conclusion
+In a nutshell, this project has shown that happiness depends on a huge range of inﬂuences. Hence, a large scale of regular collection of happiness data is conducted to help in policymaking process and help us to foster well-being. In other words, moving to a higher rank of happiness country could possibly make people happier. By the same token, moving to a less happiness country could reduce the level of happiness. By fact, it means that emotions are contagious, even at a national level.
+
+
